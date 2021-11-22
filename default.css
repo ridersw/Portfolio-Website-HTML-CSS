@@ -16,6 +16,14 @@
   --previewShadow:  #f0ead6;
 }
 
+/*For Smooth Theme changing*/
+
+body *{
+  transition: 0.3s;
+}
+
+/*html{scroll-behavior:smooth}*/
+
 html, body {
   margin: 0;
   padding: 0;
@@ -331,7 +339,7 @@ h6{font-size: 16px;}
   height: 0;
 }
 
-.certificates{
+.certificatesList{
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
   align-items: center;
@@ -345,7 +353,7 @@ h6{font-size: 16px;}
   vertical-align: center;
 }
 
-.experience{
+.certificates{
   display: flex;
   }
 
